@@ -95,7 +95,7 @@ def build_dems(n):
 
 
 print()
-order = int(input("Enter order of matrix (order > 2 & order < 100) : "))
+order = int(input("Enter the order of matrix (order > 2 & order < 100) : "))
 print()
 if order <= 2 or order >= 100:
     print("**Invalid Input**")
